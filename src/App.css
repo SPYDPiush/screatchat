@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+input{
+  outline: unset;
+}
+
+.appcont{
+  position: absolute;
+  top: 7rem;
+  width: 100%;
+  
+}

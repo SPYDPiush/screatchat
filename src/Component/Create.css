@@ -1,0 +1,27 @@
+.postcontainer{
+  width: 74.5rem;
+  height: 84.9vh;
+  background-color: lavenderblush;
+  position: fixed;
+  left: 21.8rem;
+  overflow-y: scroll;
+}
+
+.post_inner{
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  padding: 2rem;
+  border-radius: 7px;
+  border: 1px solid;
+  width: 23rem !important;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.submit_btn{
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+  border: 1px solid black;
+}

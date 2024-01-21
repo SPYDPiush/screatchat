@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+input{
+  outline: none;
+  border: 1px solid;
+}
+
+.container_reg{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.reg_outer{
+  width: 30rem;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.reg_logo{
+ display: flex;
+ justify-content: center;
+ padding: 7px;
+
+}
+
+.reg_logo img{
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  
+}
+
+.reg_form{
+  font-size: 1.2rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.label{
+  display: flex;
+  justify-content:space-between;
+}
+
+.label_input{
+  display: flex;
+  justify-content:space-between;
+}
+
+.label_input input{
+  outline: none;
+  border: 1px solid ;
+  padding:0px 5px;
+  font-size: 1.2rem;
+  width: 43%;
+  height: 2rem;
+}
+
+
+.forminput{
+
+  display: flex;
+  justify-content: space-between;
+
+  > input{
+    outline: none;
+  border: 1px solid ;
+  padding:0px 5px;
+  font-size: 1.2rem;
+  width: 90%;
+  height: 2rem;
+  }
+}
+.reg_form div{
+  margin-top: 1rem;
+}

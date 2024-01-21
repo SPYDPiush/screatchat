@@ -1,0 +1,42 @@
+.postcontainer{
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  width: 74.5rem;
+  height: 84.9vh;
+  background-color: lavenderblush;
+  position: fixed;
+  left: 21.8rem;
+}
+
+.postinner{
+  margin-top: 3rem;
+  margin-left: 2rem;
+  padding: 2rem;
+  border-radius: 7px;
+  border: 1px solid;
+  width: 22rem !important;
+  height:fit-content;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.post_desc{
+
+  text-align: justify;
+}
+
+
+.post_tags{
+
+  padding: 3px 7px;
+  border-radius: 7px;
+  border: 1px solid;
+  display: inline-block;
+}
+
+.post_reaction{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}

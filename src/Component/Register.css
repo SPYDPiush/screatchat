@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  > input{
+    outline: none;
+    border: 1px solid;
+  }
+}
+
+
+.container_reg{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background: wheat;
+}
+
+.reg_outer{
+  width: 30rem;
+  padding: 1rem;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  background-color: #92df40 ;
+  color: rgb(8, 4, 4);
+}
+
+.reg_logo{
+ display: flex;
+ justify-content: center;
+ padding: 7px;
+
+}
+
+.reg_logo img{
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  
+}
+
+.reg_form{
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.label{
+  display: flex;
+  /* justify-content:space-between; */
+
+  > .last{
+    margin-left: 9.5rem;
+  }
+}
+
+.label_input{
+  display: flex;
+  justify-content:space-between;
+}
+
+.label_input input{
+  outline: none;
+  border: 1px solid  transparent;
+  border-radius: 5px;
+  padding:10px 3px;
+  width: 43%;
+  height: 2.5rem;
+}
+
+
+.forminput{
+
+  display: flex;
+  justify-content: space-between;
+
+  input{
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding:8px 3px;
+  font-size: 1.2rem;
+  width: 90%;
+  height: 2.5rem;
+  }
+}
+.reg_form div{
+  margin-top: 1rem;
+}
+
+.eye_icon{
+  position: relative;
+  top: -2rem;
+  left: 75%;
+  font-size: 1.5rem;
+}
+
+.pass_check_wrong{
+  font-size: 0.8rem;
+  color: red;
+  position: relative;
+  left: 10rem;
+  top:-0.3rem;
+}
+
+.pass_check_correct{
+  font-size: 0.8rem;
+  color: blue;
+  position: relative;
+  left: 8rem;
+  top:-0.3rem;
+
+}
+.btn{
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+  border: 1px solid transparent;
+  background-color: antiquewhite;
+}
